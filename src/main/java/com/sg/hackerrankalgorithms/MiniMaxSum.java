@@ -16,9 +16,9 @@ public class MiniMaxSum {
     }
     
     public static void miniMaxSum(int[] arr) {
-        int min = arr[0];
-        int max = min;
-        int sum = min;
+        long min = arr[0];
+        long max = min;
+        long sum = min;
         
         for(int i = 1; i < arr.length; i++) {
             sum += arr[i];
